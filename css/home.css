@@ -1,13 +1,21 @@
-.mto {
-  margin-top: 2rem;
-  width: 100%;
-  text-align: center;
-}
 .heading {
+  margin: 1.5rem auto;
   font-size: 3rem;
   width: 50rem;
   font-weight: 700;
   letter-spacing: 0.4rem;
+  text-align: center;
 }
 .subheading {
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.images-cont {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.images {
+  height: 14rem;
 }
