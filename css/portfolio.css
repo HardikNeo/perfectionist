@@ -1,0 +1,22 @@
+.portfolio-cont {
+  margin: 2rem 2rem 0 2rem;
+  height: 27rem;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.images {
+  height: 8rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.p-title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.images:hover {
+  border-radius: 20px;
+}

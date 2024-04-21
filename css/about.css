@@ -1,1 +1,27 @@
-
+.heading {
+  margin: 1.5rem;
+  font-size: 3rem;
+  width: 100%;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+  text-align: center;
+}
+.abt-cont {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.image {
+  height: 22.5rem;
+  width: auto;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.cont-text {
+  width: 20rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.image:hover {
+  border-radius: 20px;
+}

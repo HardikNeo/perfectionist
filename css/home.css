@@ -18,4 +18,9 @@
 }
 .images {
   height: 14rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.images:hover {
+  border-radius: 20px;
 }
