@@ -73,3 +73,8 @@ li {
   justify-content: space-around;
   gap: 15rem;
 }
+.log-btn {
+  border: none;
+  background: none;
+  color: #202020;
+}
