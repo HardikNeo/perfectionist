@@ -1,0 +1,15 @@
+.team-cont {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.team-cont {
+  text-align: center;
+}
+.images {
+  height: 20rem;
+}
+.team-text {
+  width: 100%;
+  text-align: center;
+}
