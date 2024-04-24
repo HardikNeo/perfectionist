@@ -1,4 +1,4 @@
-const login = document.querySelector(".login-form");
+const login = document.getElementById("login-form");
 const logbtn = document.querySelector(".log-btn");
 var loggedin = 0;
 

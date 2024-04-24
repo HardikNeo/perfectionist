@@ -33,7 +33,7 @@
             <a href="team.html" class="nav-link">Our Team</a>
           </li>
           <li class="nav-item">
-            <button class="nav-link log-btn">Login</button>
+            <button class="nav-link log-btn" onclick="lgnclk()">Login</button>
           </li>
         </ul>
       </nav>
@@ -58,5 +58,25 @@
         <p class="footer-text">Address: Butwal-07-Traffic Chowk</p>
       </div>
     </footer>
+    <div class="login-form" id="login-form">
+      <button class="cross" onclick="xclk()">X</button>
+      <h2>Welcome Back</h2>
+      <form>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+        /><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        /><br />
+        <input id="submit-login" type="submit" value="Login" />
+      </form>
+    </div>
+    <script src="../js/login.js"></script>
   </body>
 </html>
