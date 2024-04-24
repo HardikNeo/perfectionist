@@ -14,7 +14,7 @@
   transition: all 0.3s ease-in-out;
 }
 .images:hover {
-  border-radius: 40px;
+  height: 21rem;
 }
 .team-text {
   width: 100%;
