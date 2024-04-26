@@ -48,7 +48,6 @@ li {
 }
 .nav-link:after {
   content: "";
-
   width: 0;
   height: 0.1rem;
   display: block;
@@ -64,15 +63,13 @@ li {
 }
 .footer {
   position: absolute;
-  margin-top: 1rem;
-  height: 2rem;
   width: 100vw;
+  margin-top: 1rem;
 }
 .footer-bar {
   display: flex;
   justify-content: space-between;
   margin: 0 1rem 0 1rem;
-  gap: 15rem;
 }
 .log-btn {
   border: none;

@@ -17,7 +17,6 @@
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
-  margin-bottom: 1rem;
 }
 .images {
   height: 14rem;
@@ -26,8 +25,4 @@
 }
 .images:hover {
   height: 15rem;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
 }
