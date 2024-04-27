@@ -20,3 +20,37 @@
   width: 100%;
   text-align: center;
 }
+@media screen and (max-width: 1200px) {
+  .team-cont {
+    grid-template-columns: 1fr 1fr;
+  }
+  .images {
+    height: 18rem;
+  }
+  .images:hover {
+    height: 19rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .team-cont {
+    grid-template-columns: 1fr;
+  }
+  .images {
+    height: 15rem;
+  }
+  .images:hover {
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .team-cont {
+    grid-template-columns: 1fr;
+  }
+  .images {
+    height: 12rem;
+  }
+  .images:hover {
+    height: 13rem;
+  }
+}

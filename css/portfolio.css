@@ -2,10 +2,10 @@
   margin: 2rem 2rem 0 2rem;
   height: 27rem;
   display: grid;
-  grid-template-rows: auto auto auto;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
   align-content: space-between;
+  text-align: center;
 }
 .images {
   height: 8rem;
@@ -16,11 +16,35 @@
   font-size: 2rem;
   margin-top: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .images:hover {
   border-radius: 40px;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
+
+@media screen and (max-width: 1200px) {
+  .portfolio-cont {
+    height: 23rem;
+  }
+  .images {
+    height: 6rem;
+  }
+  .p-title {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .portfolio-cont {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .images {
+    height: 8rem;
+  }
+  .p-title {
+    margin: 1rem 0 1rem 0;
+    font-size: 2rem;
+  }
 }
